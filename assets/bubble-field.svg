@@ -1,0 +1,117 @@
+<svg width="1200" height="310" viewBox="0 0 1200 310" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ideas in motion</title>
+  <desc id="desc">Lilac bubbles appear in different places, grow while changing to plum, then burst into small particles.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#815799" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <style>
+      .bubble {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: grow 10s cubic-bezier(.22,.61,.36,1) infinite;
+        animation-delay: var(--delay);
+      }
+      .shine {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: shine 10s ease-in-out infinite;
+        animation-delay: var(--delay);
+      }
+      .dust {
+        animation: powder 10s ease-out infinite;
+        animation-delay: var(--delay);
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .p1 { --tx: 31px; --ty: -24px; }
+      .p2 { --tx: 40px; --ty: 3px; }
+      .p3 { --tx: 25px; --ty: 31px; }
+      .p4 { --tx: -4px; --ty: 39px; }
+      .p5 { --tx: -34px; --ty: 27px; }
+      .p6 { --tx: -42px; --ty: -4px; }
+      .p7 { --tx: -25px; --ty: -33px; }
+      .p8 { --tx: 5px; --ty: -42px; }
+      @keyframes grow {
+        0%, 8% { opacity: 0; transform: scale(.12); fill: #F0E7F4; stroke: #D8C6E3; }
+        15% { opacity: .72; transform: scale(.25); fill: #E9DDF0; stroke: #C8ADD6; }
+        48% { opacity: .88; transform: scale(1); fill: #B99AC8; stroke: #815799; }
+        59% { opacity: .94; transform: scale(1.28); fill: #815799; stroke: #512A46; }
+        62% { opacity: 0; transform: scale(1.45); fill: #512A46; stroke: #512A46; }
+        100% { opacity: 0; transform: scale(1.45); fill: #512A46; stroke: #512A46; }
+      }
+      @keyframes shine {
+        0%, 12% { opacity: 0; transform: scale(.1); }
+        19% { opacity: .7; transform: scale(.25); }
+        50% { opacity: .45; transform: scale(1); }
+        60%, 100% { opacity: 0; transform: scale(1.2); }
+      }
+      @keyframes powder {
+        0%, 58% { opacity: 0; transform: translate(0,0) scale(.3); }
+        61% { opacity: .9; transform: translate(0,0) scale(1); }
+        73%, 100% { opacity: 0; transform: translate(var(--tx),var(--ty)) scale(.18); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .bubble, .shine, .dust { animation: none; }
+        .bubble { opacity: .45; fill: #B99AC8; stroke: #815799; }
+        .shine { opacity: .35; }
+        .dust { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="310" rx="26" fill="#F8F4FA"/>
+  <rect width="1200" height="310" rx="26" fill="url(#grid)"/>
+
+  <g transform="translate(118 90)" style="--delay:-1.3s">
+    <circle class="bubble" r="26" fill="#F0E7F4" stroke="#C8ADD6" stroke-width="2"/>
+    <circle class="shine" cx="-8" cy="-9" r="6" fill="#FFFDFB"/>
+    <g fill="#815799"><circle class="dust p1" r="3"/><circle class="dust p2" r="2.5"/><circle class="dust p3" r="3"/><circle class="dust p4" r="2"/><circle class="dust p5" r="3"/><circle class="dust p6" r="2.5"/><circle class="dust p7" r="2"/><circle class="dust p8" r="3"/></g>
+  </g>
+
+  <g transform="translate(287 223)" style="--delay:-7.1s">
+    <circle class="bubble" r="19" fill="#F0E7F4" stroke="#C8ADD6" stroke-width="2"/>
+    <circle class="shine" cx="-6" cy="-7" r="4" fill="#FFFDFB"/>
+    <g fill="#6B3E5F"><circle class="dust p1" r="2.5"/><circle class="dust p2" r="2"/><circle class="dust p3" r="2.5"/><circle class="dust p4" r="2"/><circle class="dust p5" r="2.5"/><circle class="dust p6" r="2"/><circle class="dust p7" r="2.5"/><circle class="dust p8" r="2"/></g>
+  </g>
+
+  <g transform="translate(384 72)" style="--delay:-4.4s">
+    <circle class="bubble" r="14" fill="#F0E7F4" stroke="#C8ADD6" stroke-width="2"/>
+    <circle class="shine" cx="-4" cy="-5" r="3.5" fill="#FFFDFB"/>
+    <g fill="#815799"><circle class="dust p1" r="2"/><circle class="dust p2" r="2.5"/><circle class="dust p3" r="2"/><circle class="dust p4" r="2.5"/><circle class="dust p5" r="2"/><circle class="dust p6" r="2.5"/><circle class="dust p7" r="2"/><circle class="dust p8" r="2.5"/></g>
+  </g>
+
+  <g transform="translate(822 81)" style="--delay:-8.8s">
+    <circle class="bubble" r="21" fill="#F0E7F4" stroke="#C8ADD6" stroke-width="2"/>
+    <circle class="shine" cx="-7" cy="-7" r="4.5" fill="#FFFDFB"/>
+    <g fill="#6B3E5F"><circle class="dust p1" r="3"/><circle class="dust p2" r="2"/><circle class="dust p3" r="3"/><circle class="dust p4" r="2.5"/><circle class="dust p5" r="2"/><circle class="dust p6" r="3"/><circle class="dust p7" r="2.5"/><circle class="dust p8" r="2"/></g>
+  </g>
+
+  <g transform="translate(933 229)" style="--delay:-3.2s">
+    <circle class="bubble" r="28" fill="#F0E7F4" stroke="#C8ADD6" stroke-width="2"/>
+    <circle class="shine" cx="-9" cy="-10" r="6.5" fill="#FFFDFB"/>
+    <g fill="#815799"><circle class="dust p1" r="3"/><circle class="dust p2" r="3"/><circle class="dust p3" r="2.5"/><circle class="dust p4" r="3"/><circle class="dust p5" r="2.5"/><circle class="dust p6" r="3"/><circle class="dust p7" r="2.5"/><circle class="dust p8" r="3"/></g>
+  </g>
+
+  <g transform="translate(1084 108)" style="--delay:-6.0s">
+    <circle class="bubble" r="16" fill="#F0E7F4" stroke="#C8ADD6" stroke-width="2"/>
+    <circle class="shine" cx="-5" cy="-6" r="3.5" fill="#FFFDFB"/>
+    <g fill="#6B3E5F"><circle class="dust p1" r="2"/><circle class="dust p2" r="2.5"/><circle class="dust p3" r="2"/><circle class="dust p4" r="2.5"/><circle class="dust p5" r="2"/><circle class="dust p6" r="2.5"/><circle class="dust p7" r="2"/><circle class="dust p8" r="2.5"/></g>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="430" y="92" width="340" height="126" rx="30" fill="#FFFDFB" stroke="#D8C6E3" stroke-width="2"/>
+    <rect x="446" y="108" width="308" height="94" rx="22" fill="#512A46"/>
+    <text x="600" y="147" text-anchor="middle" fill="#E9DDF0" font-size="13" font-weight="800" letter-spacing="2.7">IDEAS IN MOTION</text>
+    <text x="600" y="180" text-anchor="middle" fill="#FFFDFB" font-size="20" font-weight="700">AI Product &amp; System Design</text>
+  </g>
+
+  <circle cx="69" cy="236" r="4" fill="#B99AC8" opacity=".55"/>
+  <circle cx="1122" cy="251" r="5" fill="#815799" opacity=".32"/>
+  <circle cx="769" cy="267" r="3" fill="#512A46" opacity=".25"/>
+  <circle cx="485" cy="54" r="3" fill="#815799" opacity=".35"/>
+  <rect x="1" y="1" width="1198" height="308" rx="25" stroke="#D8C6E3" stroke-width="2"/>
+</svg>
