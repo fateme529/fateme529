@@ -36,7 +36,7 @@ I turn early product needs into clear user flows, scoped features, acceptance cr
 ## What I'm focused on
 
 <div align="center">
-  <img src="./assets/focus-map.svg" width="100%" alt="Product discovery, system design, AI-assisted delivery, and product QA connected by evidence and learning" />
+  <img src="./assets/focus-loop.svg" width="100%" alt="An animated product loop connecting discovery, system design, AI-assisted delivery, and product QA" />
 </div>
 
 - Designing AI-assisted product workflows and practical feature behavior.
@@ -83,12 +83,12 @@ I turn early product needs into clear user flows, scoped features, acceptance cr
 ## Building in public
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-bubbles-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-bubbles.svg" />
-  <img alt="Real GitHub contribution days blooming into lilac and plum bubbles before dissolving into particles" src="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-bubbles.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-hearts-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-hearts.svg" />
+  <img alt="Real GitHub contribution days blooming into lilac and plum hearts before dissolving into tiny heart particles" src="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-hearts.svg" />
 </picture>
 
-<div align="center"><sub>Each colored square is a real contribution day. Bubbles bloom across the activity path and dissolve into small particles.</sub></div>
+<div align="center"><sub>Each colored square is a real contribution day. Hearts bloom across the activity path and dissolve into tiny heart particles.</sub></div>
 <div align="center"><sub>The animation refreshes automatically every day.</sub></div>
 
 ---
