@@ -1,0 +1,46 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fatemeh's product focus loop</title>
+  <desc id="desc">An animated four-stage loop connecting product discovery, system design, AI-assisted delivery, and product quality through evidence and learning.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" stroke="#815799" stroke-opacity=".05"/></pattern>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#815799"/></marker>
+  </defs>
+  <style>
+    .eyebrow{font:800 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2.1px}.step{font:750 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1px}.name{font:750 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.sub{font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.loop{font:750 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.3px}
+    .card{transform-box:fill-box;transform-origin:center;animation:lift 10s ease-in-out infinite}.c2{animation-delay:-7.5s}.c3{animation-delay:-5s}.c4{animation-delay:-2.5s}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3s ease-in-out infinite}.pulse.late{animation-delay:-1.5s}.flow-line{stroke-dasharray:8 10;animation:dash 18s linear infinite}
+    @keyframes lift{0%,18%,100%{transform:translateY(0)}8%{transform:translateY(-5px)}}@keyframes pulse{0%,100%{opacity:.45;transform:scale(.82)}50%{opacity:1;transform:scale(1.16)}}@keyframes dash{to{stroke-dashoffset:-180}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect x=".5" y=".5" width="1199" height="329" rx="26" fill="#F8F4FA" stroke="#D8C6E3"/>
+  <rect x="1" y="1" width="1198" height="328" rx="25" fill="url(#grid)"/>
+  <text x="42" y="38" class="eyebrow" fill="#815799">MY PRODUCT FOCUS SYSTEM</text><text x="1158" y="38" text-anchor="end" class="eyebrow" fill="#6B5865">FROM NEED TO TESTED RELEASE</text>
+
+  <path class="flow-line" d="M153 138H1047" stroke="#B99AC8" stroke-width="2" stroke-opacity=".64"/>
+  <circle r="5" fill="#512A46" filter="url(#glow)"><animateMotion path="M153 138H1047" dur="8s" repeatCount="indefinite"/></circle>
+
+  <g class="card c1">
+    <rect x="42" y="66" width="234" height="146" rx="19" fill="#FFFDFB" stroke="#D8C6E3" stroke-width="1.5"/><path d="M60 67H258" stroke="#B99AC8" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="78" cy="105" r="20" fill="#F0E7F4" stroke="#B99AC8"/><circle cx="78" cy="105" r="8" stroke="#815799"/><circle cx="78" cy="105" r="3" fill="#815799"/><path d="M78 90V96M78 114V120M63 105H69M87 105H93" stroke="#815799" stroke-linecap="round"/>
+    <text x="111" y="100" class="step" fill="#815799">01 · DISCOVER</text><text x="62" y="155" class="name" fill="#2A1925">Product Discovery</text><text x="62" y="181" class="sub" fill="#6B5865">Find the real problem.</text>
+  </g>
+  <g class="card c2">
+    <rect x="320" y="66" width="234" height="146" rx="19" fill="#F0E7F4" stroke="#C8ADD6" stroke-width="1.5"/><path d="M338 67H536" stroke="#9E77B1" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="356" cy="105" r="20" fill="#E9DDF0" stroke="#9E77B1"/><rect x="347" y="97" width="18" height="16" rx="3" stroke="#815799"/><path d="M351 102H361M351 107H358" stroke="#815799" stroke-linecap="round"/>
+    <text x="389" y="100" class="step" fill="#815799">02 · MODEL</text><text x="340" y="155" class="name" fill="#2A1925">System Design</text><text x="340" y="181" class="sub" fill="#6B5865">Turn needs into flows.</text>
+  </g>
+  <g class="card c3">
+    <rect x="598" y="66" width="234" height="146" rx="19" fill="#E9DDF0" stroke="#B99AC8" stroke-width="1.5"/><path d="M616 67H814" stroke="#815799" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="634" cy="105" r="20" fill="#D8C6E3" stroke="#815799"/><path class="pulse" d="M634 91L638 101L648 105L638 109L634 119L630 109L620 105L630 101Z" fill="#815799"/>
+    <text x="667" y="100" class="step" fill="#6B3E5F">03 · DELIVER</text><text x="618" y="155" class="name" fill="#2A1925">AI-assisted Delivery</text><text x="618" y="181" class="sub" fill="#6B5865">Move with clear scope.</text>
+  </g>
+  <g class="card c4">
+    <rect x="876" y="66" width="282" height="146" rx="19" fill="#512A46" stroke="#815799" stroke-width="1.5"/><path d="M894 67H1140" stroke="#D8C6E3" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="912" cy="105" r="20" fill="#815799" stroke="#B99AC8"/><path d="M902 108L909 101L914 105L923 94M918 94H923V99" stroke="#FFFDFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="945" y="100" class="step" fill="#E9DDF0">04 · VALIDATE</text><text x="896" y="155" class="name" fill="#FFFDFB">Product QA</text><text x="896" y="181" class="sub" fill="#E9DDF0">Test. Learn. Improve.</text>
+  </g>
+
+  <path d="M1017 213V276H159V213" stroke="#815799" stroke-opacity=".64" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle r="4" fill="#B99AC8" filter="url(#glow)"><animateMotion path="M1017 213V276H159V213" dur="9.5s" repeatCount="indefinite"/></circle>
+  <rect x="449" y="252" width="302" height="47" rx="23.5" fill="#FFFDFB" stroke="#C8ADD6"/><circle cx="476" cy="275.5" r="4" fill="#815799" class="pulse late"/><text x="605" y="280" text-anchor="middle" class="loop" fill="#512A46">EVIDENCE + LEARNING</text>
+</svg>
