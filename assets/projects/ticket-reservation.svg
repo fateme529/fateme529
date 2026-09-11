@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">Ticket Reservation platform</title>
+  <desc id="desc">An animated project card for a full-stack auditorium seat reservation platform.</desc>
+  <style>
+    .label { font: 700 17px "Segoe UI", Arial, sans-serif; letter-spacing: 2px; }
+    .title { font: 700 40px "Segoe UI", Arial, sans-serif; }
+    .copy { font: 500 22px "Segoe UI", Arial, sans-serif; }
+    .chip { font: 650 16px "Segoe UI", Arial, sans-serif; letter-spacing: .4px; }
+    .seat { animation: reserve 4s ease-in-out infinite; }
+    .s2 { animation-delay:-.5s }.s3 { animation-delay:-1s }.s4 { animation-delay:-1.5s }.s5 { animation-delay:-2s }.s6 { animation-delay:-2.5s }
+    @keyframes reserve { 0%,30%,100% { fill:#E9DDF0 } 45%,72% { fill:#815799 } }
+    @media (prefers-reduced-motion: reduce) { .seat { animation:none } }
+  </style>
+  <rect x="7" y="7" width="746" height="426" rx="34" fill="#512A46" stroke="#815799" stroke-width="14"/>
+  <path d="M42 40h676" stroke="#815799" stroke-width="2" opacity=".75"/>
+  <text x="54" y="76" class="label" fill="#D8C6E3">02 / COLLABORATIVE PROJECT</text>
+  <text x="54" y="145" class="title" fill="#FFFDFB">Ticket Reservation</text>
+  <text x="54" y="184" class="copy" fill="#E9DDF0">Live auditorium seating, secure booking,</text>
+  <text x="54" y="214" class="copy" fill="#E9DDF0">admin controls and useful reporting.</text>
+
+  <g aria-hidden="true" transform="translate(520 91)">
+    <path d="M-10 20Q60-20 130 20" fill="none" stroke="#B99AC8" stroke-width="5" stroke-linecap="round"/>
+    <rect class="seat" x="0" y="52" width="38" height="34" rx="10" fill="#E9DDF0"/>
+    <rect class="seat s2" x="52" y="52" width="38" height="34" rx="10" fill="#E9DDF0"/>
+    <rect class="seat s3" x="104" y="52" width="38" height="34" rx="10" fill="#E9DDF0"/>
+    <rect class="seat s4" x="0" y="102" width="38" height="34" rx="10" fill="#E9DDF0"/>
+    <rect class="seat s5" x="52" y="102" width="38" height="34" rx="10" fill="#E9DDF0"/>
+    <rect class="seat s6" x="104" y="102" width="38" height="34" rx="10" fill="#E9DDF0"/>
+    <circle cx="71" cy="69" r="7" fill="#FFFDFB"/>
+  </g>
+
+  <g transform="translate(54 280)">
+    <rect width="84" height="42" rx="21" fill="#FFFDFB"/><text x="42" y="27" text-anchor="middle" class="chip" fill="#512A46">REACT</text>
+    <rect x="96" width="62" height="42" rx="21" fill="#815799"/><text x="127" y="27" text-anchor="middle" class="chip" fill="#FFFDFB">GO</text>
+    <rect x="170" width="126" height="42" rx="21" fill="#815799"/><text x="233" y="27" text-anchor="middle" class="chip" fill="#FFFDFB">POSTGRESQL</text>
+  </g>
+  <line x1="54" y1="360" x2="706" y2="360" stroke="#815799" stroke-width="2"/>
+  <text x="54" y="399" class="label" fill="#D8C6E3">REAL-TIME SEATS · JWT/RBAC · ANALYTICS</text>
+</svg>
