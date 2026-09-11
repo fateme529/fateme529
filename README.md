@@ -43,6 +43,28 @@ I turn early product needs into clear user flows, scoped features, acceptance cr
 - Translating user and business needs into system flows and technical specifications.
 - Improving release quality through product QA, feedback, and iteration.
 
+## Selected work
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://github.com/fateme529/pcforge-commerce-system"><img src="./assets/projects/pcforge.svg" width="100%" alt="PCForge commerce and compatibility system" /></a>
+      <br />
+      <sub><strong>Independent build</strong> · End-to-end database and desktop application.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/sedwna/Ticket-reservation"><img src="./assets/projects/ticket-reservation.svg" width="100%" alt="Ticket Reservation full-stack platform" /></a>
+      <br />
+      <sub><strong>Collaborative project</strong> · Full-stack auditorium reservation platform.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/ReinaKhosravi/DS-project"><img src="./assets/projects/ds-project.svg" width="100%" alt="Data Structures shortest-path project" /></a>
+      <br />
+      <sub><strong>Collaborative project</strong> · C++ graph and shortest-path implementation.</sub>
+    </td>
+  </tr>
+</table>
+
 ## Experience
 
 | Company | Role | Period | Focus |
