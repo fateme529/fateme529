@@ -89,13 +89,7 @@ I turn early product needs into clear user flows, scoped features, acceptance cr
 </picture>
 
 <div align="center"><sub>Each colored square is a real contribution day. Bubbles bloom across the activity path and dissolve into small particles.</sub></div>
-
-<br />
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=fateme529&show_icons=true&hide_border=true&bg_color=00000000&title_color=512A46&icon_color=815799&text_color=7A6474&rank_icon=github" alt="Fatemeh's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fateme529&layout=compact&hide_border=true&bg_color=00000000&title_color=512A46&text_color=7A6474&langs_count=6" alt="Fatemeh's most used languages" />
-</div>
+<div align="center"><sub>The animation refreshes automatically every day.</sub></div>
 
 ---
 
