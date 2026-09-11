@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.svg?version=2" width="100%" alt="Fatemeh Damavandi, Product Specialist in AI Product and System Design" />
+  <img src="https://raw.githubusercontent.com/fateme529/fateme529/cc81716612f2c5f946b78e94335806d9a3d0f01e/assets/hero.svg" width="100%" alt="Fatemeh Damavandi, Product Specialist in AI Product and System Design" />
 </div>
 
 <div align="center">
