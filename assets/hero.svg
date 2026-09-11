@@ -1,58 +1,45 @@
 <svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Fatemeh Damavandi, Product Specialist</title>
-  <desc id="desc">A light lilac and plum profile banner for AI product and system design.</desc>
+  <desc id="desc">An animated lilac and plum banner showing product discovery, system design, delivery, and validation moving around one clear product system.</desc>
   <defs>
-    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.4" fill="#B99AC8" fill-opacity="0.22"/>
-    </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#512A46" flood-opacity="0.12"/>
-    </filter>
-    <clipPath id="clip"><rect width="1200" height="430" rx="30"/></clipPath>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#815799" fill-opacity=".16"/></pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="glow" x="-140%" y="-140%" width="380%" height="380%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="1200" height="430" rx="30"/></clipPath>
   </defs>
-
-  <g clip-path="url(#clip)">
-    <rect width="1200" height="430" fill="#F8F4FA"/>
-    <rect width="1200" height="430" fill="url(#dots)"/>
-    <circle cx="1095" cy="55" r="180" fill="#E9DDF0"/>
-    <circle cx="1122" cy="374" r="220" fill="#F0E7F4"/>
-    <circle cx="942" cy="226" r="146" fill="#FBF9FC" stroke="#D8C6E3" stroke-width="2"/>
-    <circle cx="942" cy="226" r="106" fill="#E9DDF0" stroke="#C8ADD6" stroke-width="2"/>
-    <circle cx="942" cy="226" r="70" fill="#512A46" filter="url(#shadow)"/>
-
-    <g font-family="Inter, Segoe UI, Arial, sans-serif">
-      <text x="72" y="84" fill="#815799" font-size="15" font-weight="800" letter-spacing="4.5">PRODUCT  •  AI  •  SYSTEMS</text>
-      <text x="72" y="169" fill="#2A1925" font-size="58" font-weight="800" letter-spacing="-1.4">FATEMEH DAMAVANDI</text>
-      <text x="72" y="221" fill="#512A46" font-size="25" font-weight="650">Product Specialist | AI Product &amp; System Design</text>
-      <text x="72" y="268" fill="#6B5865" font-size="18">Turning product needs into clear flows, testable features,</text>
-      <text x="72" y="296" fill="#6B5865" font-size="18">and implementation-ready specifications.</text>
-
-      <g transform="translate(72 337)">
-        <rect width="144" height="42" rx="21" fill="#F0E7F4" stroke="#C8ADD6"/>
-        <circle cx="21" cy="21" r="4" fill="#815799"/>
-        <text x="37" y="27" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">DISCOVER</text>
-      </g>
-      <g transform="translate(230 337)">
-        <rect width="131" height="42" rx="21" fill="#E9DDF0" stroke="#B99AC8"/>
-        <circle cx="21" cy="21" r="4" fill="#6B3E5F"/>
-        <text x="37" y="27" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">DESIGN</text>
-      </g>
-      <g transform="translate(375 337)">
-        <rect width="154" height="42" rx="21" fill="#E2D1E9" stroke="#B99AC8"/>
-        <circle cx="21" cy="21" r="4" fill="#512A46"/>
-        <text x="37" y="27" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">VALIDATE</text>
-      </g>
-      <g transform="translate(543 337)">
-        <rect width="138" height="42" rx="21" fill="#512A46"/>
-        <circle cx="21" cy="21" r="4" fill="#E9DDF0"/>
-        <text x="37" y="27" fill="#FFFDFB" font-size="13" font-weight="800" letter-spacing="1.2">DELIVER</text>
-      </g>
-
-      <text x="942" y="216" text-anchor="middle" fill="#FFFDFB" font-size="14" font-weight="800" letter-spacing="2.4">MAKE IT</text>
-      <text x="942" y="241" text-anchor="middle" fill="#FFFDFB" font-size="14" font-weight="800" letter-spacing="2.4">CLEAR</text>
-      <text x="1114" y="400" text-anchor="end" fill="#815799" font-size="11" font-weight="800" letter-spacing="2.2">PRODUCT THINKING, TECHNICAL DEPTH</text>
+  <style>
+    .eyebrow{font:800 15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:4.5px}.name{font:800 58px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-1.4px}.role{font:650 25px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.body{font:500 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.tag{font:800 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.1px}.micro{font:800 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px}
+    .intro{animation:reveal 1.15s cubic-bezier(.2,.8,.2,1) both}.rule{stroke-dasharray:410;stroke-dashoffset:410;animation:draw 1.5s .45s ease-out forwards}.tag-one{animation:reveal .8s .65s both}.tag-two{animation:reveal .8s .8s both}.tag-three{animation:reveal .8s .95s both}.tag-four{animation:reveal .8s 1.1s both}.orbit{transform-origin:970px 214px;animation:turn 25s linear infinite}.counter{transform-box:fill-box;transform-origin:center;animation:turnBack 25s linear infinite}.inner-orbit{transform-origin:970px 214px;animation:turnBack 18s linear infinite}.inner-counter{transform-box:fill-box;transform-origin:center;animation:turn 18s linear infinite}.core{transform-origin:970px 214px;animation:pulse 3.8s ease-in-out infinite}.scan{animation:scan 5.4s ease-in-out infinite}.spark{animation:blink 3s ease-in-out infinite}.spark.two{animation-delay:-1s}.spark.three{animation-delay:-2.1s}
+    @keyframes reveal{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes turn{to{transform:rotate(360deg)}}@keyframes turnBack{to{transform:rotate(-360deg)}}@keyframes pulse{0%,100%{transform:scale(.94);opacity:.68}50%{transform:scale(1.08);opacity:1}}@keyframes scan{0%,100%{transform:translateX(-22px);opacity:.12}50%{transform:translateX(80px);opacity:.55}}@keyframes blink{0%,100%{opacity:.22}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.intro,.tag-one,.tag-two,.tag-three,.tag-four{opacity:1!important}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="430" fill="#F8F4FA"/><rect width="1200" height="430" fill="url(#dots)"/>
+    <circle cx="1057" cy="76" r="168" fill="#E9DDF0"/><circle cx="1112" cy="390" r="228" fill="#F0E7F4"/><circle cx="938" cy="226" r="156" fill="#815799" fill-opacity=".08" filter="url(#soft)"/>
+    <g class="intro">
+      <text x="72" y="84" class="eyebrow" fill="#815799">PRODUCT  •  AI  •  SYSTEMS</text><text x="72" y="169" class="name" fill="#2A1925">FATEMEH DAMAVANDI</text>
+      <text x="72" y="221" class="role" fill="#512A46">Product Specialist | AI Product &amp; System Design</text>
+      <text x="72" y="268" class="body" fill="#6B5865">Turning product needs into clear flows, testable features,</text><text x="72" y="296" class="body" fill="#6B5865">and implementation-ready specifications.</text>
+      <path class="rule" d="M72 318H482" stroke="#815799" stroke-width="2" stroke-linecap="round"/>
     </g>
+    <g transform="translate(72 344)" class="tag-one"><rect width="144" height="38" rx="19" fill="#FFFDFB" stroke="#D8C6E3"/><circle cx="20" cy="19" r="4" fill="#B99AC8"/><text x="35" y="24" class="tag" fill="#512A46">DISCOVER</text></g>
+    <g transform="translate(228 344)" class="tag-two"><rect width="128" height="38" rx="19" fill="#F0E7F4" stroke="#C8ADD6"/><circle cx="20" cy="19" r="4" fill="#9E77B1"/><text x="35" y="24" class="tag" fill="#512A46">DESIGN</text></g>
+    <g transform="translate(368 344)" class="tag-three"><rect width="139" height="38" rx="19" fill="#E9DDF0" stroke="#B99AC8"/><circle cx="20" cy="19" r="4" fill="#815799"/><text x="35" y="24" class="tag" fill="#512A46">DELIVER</text></g>
+    <g transform="translate(519 344)" class="tag-four"><rect width="148" height="38" rx="19" fill="#512A46" stroke="#512A46"/><circle cx="20" cy="19" r="4" fill="#E9DDF0"/><text x="35" y="24" class="tag" fill="#FFFDFB">VALIDATE</text></g>
+    <g>
+      <circle cx="970" cy="214" r="142" stroke="#815799" stroke-opacity=".2" stroke-width="2" stroke-dasharray="4 9"/><circle cx="970" cy="214" r="108" stroke="#B99AC8" stroke-opacity=".64" stroke-width="2"/><circle cx="970" cy="214" r="76" stroke="#D8C6E3" stroke-width="2" stroke-dasharray="3 7"/>
+      <circle class="core" cx="970" cy="214" r="61" fill="#815799" fill-opacity=".2" filter="url(#soft)"/><circle cx="970" cy="214" r="52" fill="#512A46" stroke="#B99AC8" stroke-width="2"/>
+      <text x="970" y="209" text-anchor="middle" class="micro" fill="#E9DDF0">MAKE IT</text><text x="970" y="232" text-anchor="middle" class="micro" fill="#FFFDFB">CLEAR</text>
+      <g class="orbit">
+        <g transform="translate(970 72)"><g class="counter"><circle r="15" fill="#FFFDFB" stroke="#815799"/><circle r="4" fill="#815799" filter="url(#glow)"/></g></g>
+        <g transform="translate(1112 214)"><g class="counter"><circle r="15" fill="#FFFDFB" stroke="#815799"/><path d="M-5 0H5M0-5V5" stroke="#815799" stroke-width="2" stroke-linecap="round"/></g></g>
+        <g transform="translate(970 356)"><g class="counter"><circle r="15" fill="#512A46" stroke="#B99AC8"/><path d="M-6 3L-2-1L2 2L7-5" stroke="#E9DDF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+        <g transform="translate(828 214)"><g class="counter"><circle r="15" fill="#FFFDFB" stroke="#815799"/><rect x="-6" y="-5" width="12" height="10" rx="2" stroke="#815799"/></g></g>
+      </g>
+      <g class="inner-orbit"><g transform="translate(970 106)"><g class="inner-counter"><circle r="5" fill="#B99AC8" filter="url(#glow)"/></g></g><g transform="translate(970 322)"><g class="inner-counter"><circle r="4" fill="#815799" filter="url(#glow)"/></g></g></g>
+      <path class="scan" d="M886 140V288" stroke="#815799" stroke-opacity=".5"/><circle cx="1141" cy="92" r="2.5" fill="#815799" class="spark"/><circle cx="807" cy="103" r="3" fill="#B99AC8" class="spark two"/><circle cx="1139" cy="334" r="2.5" fill="#512A46" class="spark three"/>
+    </g>
+    <text x="1160" y="402" text-anchor="end" class="micro" fill="#815799">PRODUCT THINKING · TECHNICAL DEPTH</text>
   </g>
-
   <rect x="1" y="1" width="1198" height="428" rx="29" stroke="#D8C6E3" stroke-width="2"/>
 </svg>
