@@ -1,0 +1,42 @@
+name: Generate contribution bubbles
+
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the profile source
+        uses: actions/checkout@v5
+
+      - name: Read the real contribution calendar
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/base-light.svg?color_snake=#512A46&color_dots=#F0E7F4,#D8C6E3,#B99AC8,#815799,#512A46
+            dist/base-dark.svg?palette=github-dark&color_snake=#E9DDF0&color_dots=#33242F,#5F4259,#815799,#B99AC8,#E9DDF0
+
+      - name: Turn contribution days into bubble bursts
+        run: node scripts/enhance-bubbles.mjs
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+
+      - name: Publish the animation
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
