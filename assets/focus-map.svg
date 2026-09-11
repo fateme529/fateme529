@@ -1,0 +1,50 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fatemeh's product focus map</title>
+  <desc id="desc">Product discovery, system design, AI-assisted delivery, and product QA form a continuous evidence and learning loop.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#512A46" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="280" rx="26" fill="#F8F4FA"/>
+  <rect x="1" y="1" width="1198" height="278" rx="25" stroke="#D8C6E3" stroke-width="2"/>
+
+  <path d="M240 114H384M516 114H660M792 114H936" stroke="#B99AC8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M374 104L386 114L374 124M650 104L662 114L650 124M926 104L938 114L926 124" stroke="#815799" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1001 170C942 234 258 234 199 170" stroke="#815799" stroke-opacity="0.48" stroke-width="2" stroke-dasharray="7 10"/>
+  <path d="M210 170L197 170L201 183" stroke="#815799" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(86 70)">
+      <rect width="154" height="88" rx="20" fill="#FFFDFB" stroke="#D8C6E3" stroke-width="2"/>
+      <circle cx="77" cy="25" r="6" fill="#B99AC8"/>
+      <text x="77" y="50" text-anchor="middle" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">PRODUCT</text>
+      <text x="77" y="70" text-anchor="middle" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">DISCOVERY</text>
+    </g>
+    <g transform="translate(384 70)">
+      <rect width="132" height="88" rx="20" fill="#F0E7F4" stroke="#C8ADD6" stroke-width="2"/>
+      <circle cx="66" cy="25" r="6" fill="#9E77B1"/>
+      <text x="66" y="50" text-anchor="middle" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">SYSTEM</text>
+      <text x="66" y="70" text-anchor="middle" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">DESIGN</text>
+    </g>
+    <g transform="translate(660 70)">
+      <rect width="132" height="88" rx="20" fill="#E9DDF0" stroke="#B99AC8" stroke-width="2"/>
+      <circle cx="66" cy="25" r="6" fill="#815799"/>
+      <text x="66" y="50" text-anchor="middle" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">AI-ASSISTED</text>
+      <text x="66" y="70" text-anchor="middle" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">DELIVERY</text>
+    </g>
+    <g transform="translate(936 70)">
+      <rect width="178" height="88" rx="20" fill="#512A46" stroke="#512A46" stroke-width="2"/>
+      <circle cx="89" cy="25" r="6" fill="#D8C6E3"/>
+      <text x="89" y="50" text-anchor="middle" fill="#FFFDFB" font-size="13" font-weight="800" letter-spacing="1.2">PRODUCT QA</text>
+      <text x="89" y="70" text-anchor="middle" fill="#FFFDFB" font-size="13" font-weight="800" letter-spacing="1.2">&amp; VALIDATION</text>
+    </g>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="456" y="211" width="288" height="42" rx="21" fill="#FFFDFB" stroke="#D8C6E3"/>
+    <circle cx="482" cy="232" r="4" fill="#815799"/>
+    <text x="612" y="237" text-anchor="middle" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.8">EVIDENCE + LEARNING</text>
+  </g>
+</svg>
