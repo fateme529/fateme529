@@ -1,4 +1,4 @@
-name: Generate contribution bubbles
+name: Generate contribution hearts
 
 on:
   schedule:
@@ -28,12 +28,12 @@ jobs:
             dist/base-light.svg?color_snake=#512A46&color_dots=#F0E7F4,#D8C6E3,#B99AC8,#815799,#512A46
             dist/base-dark.svg?palette=github-dark&color_snake=#E9DDF0&color_dots=#33242F,#5F4259,#815799,#B99AC8,#E9DDF0
 
-      - name: Turn contribution days into bubble bursts
+      - name: Turn contribution days into heart bursts
         run: node scripts/enhance-bubbles.mjs
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}
 
-      - name: Publish the animation
+      - name: Publish the heart animation
         uses: crazy-max/ghaction-github-pages@v5
         with:
           build_dir: dist
