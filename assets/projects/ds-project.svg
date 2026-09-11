@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">Data Structures shortest path project</title>
+  <desc id="desc">An animated project card for a collaborative C++ graph and shortest-path implementation.</desc>
+  <style>
+    .label { font: 700 17px "Segoe UI", Arial, sans-serif; letter-spacing: 2px; }
+    .title { font: 700 42px "Segoe UI", Arial, sans-serif; }
+    .copy { font: 500 22px "Segoe UI", Arial, sans-serif; }
+    .chip { font: 650 16px "Segoe UI", Arial, sans-serif; letter-spacing: .4px; }
+    .route { stroke-dasharray: 15 11; animation: travel 3s linear infinite; }
+    .node { animation: node 3s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    .n2 { animation-delay:-1s }.n3 { animation-delay:-2s }
+    @keyframes travel { to { stroke-dashoffset:-52 } }
+    @keyframes node { 0%,100% { transform:scale(.8); opacity:.55 } 50% { transform:scale(1); opacity:1 } }
+    @media (prefers-reduced-motion: reduce) { .route,.node { animation:none } }
+  </style>
+  <rect x="7" y="7" width="746" height="426" rx="34" fill="#F0E7F4" stroke="#B99AC8" stroke-width="14"/>
+  <path d="M42 40h676" stroke="#D8C6E3" stroke-width="2"/>
+  <text x="54" y="76" class="label" fill="#815799">03 / COLLABORATIVE PROJECT</text>
+  <text x="54" y="145" class="title" fill="#2A1925">DS Project</text>
+  <text x="54" y="184" class="copy" fill="#6B5865">Graph algorithms for finding efficient</text>
+  <text x="54" y="214" class="copy" fill="#6B5865">routes through weighted networks.</text>
+
+  <g aria-hidden="true">
+    <path d="M520 213l48-91 88 32-39 73z" fill="none" stroke="#D8C6E3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="route" d="M520 213l48-91 88 32-39 73" fill="none" stroke="#815799" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle class="node" cx="520" cy="213" r="14" fill="#512A46"/>
+    <circle class="node n2" cx="568" cy="122" r="14" fill="#815799"/>
+    <circle class="node n3" cx="656" cy="154" r="14" fill="#512A46"/>
+    <circle cx="617" cy="227" r="14" fill="#B99AC8"/>
+  </g>
+
+  <g transform="translate(54 280)">
+    <rect width="74" height="42" rx="21" fill="#512A46"/><text x="37" y="27" text-anchor="middle" class="chip" fill="#FFFDFB">C++</text>
+    <rect x="86" width="98" height="42" rx="21" fill="#FFFDFB"/><text x="135" y="27" text-anchor="middle" class="chip" fill="#512A46">GRAPHS</text>
+    <rect x="196" width="108" height="42" rx="21" fill="#FFFDFB"/><text x="250" y="27" text-anchor="middle" class="chip" fill="#512A46">DIJKSTRA</text>
+  </g>
+  <line x1="54" y1="360" x2="706" y2="360" stroke="#D8C6E3" stroke-width="2"/>
+  <text x="54" y="399" class="label" fill="#512A46">WEIGHTED GRAPHS · PRIORITY QUEUE · PATHS</text>
+</svg>
