@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">PCForge commerce system</title>
+  <desc id="desc">An animated project card for an end-to-end PC parts commerce and compatibility system.</desc>
+  <style>
+    .label { font: 700 17px "Segoe UI", Arial, sans-serif; letter-spacing: 2px; }
+    .title { font: 700 44px "Segoe UI", Arial, sans-serif; }
+    .copy { font: 500 22px "Segoe UI", Arial, sans-serif; }
+    .chip { font: 650 16px "Segoe UI", Arial, sans-serif; letter-spacing: .4px; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .pulse.two { animation-delay: -.9s; }
+    .pulse.three { animation-delay: -1.8s; }
+    .trace { stroke-dasharray: 12 12; animation: flow 3.8s linear infinite; }
+    @keyframes pulse { 0%,100% { opacity:.45; transform:scale(.82) } 50% { opacity:1; transform:scale(1) } }
+    @keyframes flow { to { stroke-dashoffset:-48 } }
+    @media (prefers-reduced-motion: reduce) { .pulse,.trace { animation:none } }
+  </style>
+  <rect x="7" y="7" width="746" height="426" rx="34" fill="#FFFDFB" stroke="#D8C6E3" stroke-width="14"/>
+  <path d="M42 40h676" stroke="#F0E7F4" stroke-width="2"/>
+  <text x="54" y="76" class="label" fill="#815799">01 / INDEPENDENT BUILD</text>
+  <text x="54" y="145" class="title" fill="#2A1925">PCForge</text>
+  <text x="54" y="184" class="copy" fill="#6B5865">PC commerce and compatibility,</text>
+  <text x="54" y="214" class="copy" fill="#6B5865">engineered from schema to desktop UI.</text>
+
+  <g aria-hidden="true">
+    <rect x="503" y="91" width="150" height="150" rx="28" fill="#F0E7F4" stroke="#B99AC8" stroke-width="3"/>
+    <rect x="542" y="130" width="72" height="72" rx="15" fill="#512A46"/>
+    <path class="trace" d="M578 114V91M578 241v-23M526 166h-23M653 166h-23M534 122l-17-17M622 210l17 17M622 122l17-17M534 210l-17 17" fill="none" stroke="#815799" stroke-width="5" stroke-linecap="round"/>
+    <circle class="pulse" cx="578" cy="112" r="8" fill="#815799"/>
+    <circle class="pulse two" cx="631" cy="166" r="8" fill="#B99AC8"/>
+    <circle class="pulse three" cx="525" cy="166" r="8" fill="#815799"/>
+    <path d="M562 166l11 11 23-25" fill="none" stroke="#FFFDFB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(54 280)">
+    <rect width="126" height="42" rx="21" fill="#512A46"/><text x="63" y="27" text-anchor="middle" class="chip" fill="#FFFDFB">SQL SERVER</text>
+    <rect x="138" width="72" height="42" rx="21" fill="#E9DDF0"/><text x="174" y="27" text-anchor="middle" class="chip" fill="#512A46">C#</text>
+    <rect x="222" width="112" height="42" rx="21" fill="#E9DDF0"/><text x="278" y="27" text-anchor="middle" class="chip" fill="#512A46">WINFORMS</text>
+  </g>
+  <line x1="54" y1="360" x2="706" y2="360" stroke="#E9DDF0" stroke-width="2"/>
+  <text x="54" y="399" class="label" fill="#512A46">34 TABLES · 47 TRIGGERS · 9 UI SURFACES</text>
+</svg>
