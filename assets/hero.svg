@@ -1,0 +1,58 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fatemeh Damavandi, Product Specialist</title>
+  <desc id="desc">A light lilac and plum profile banner for AI product and system design.</desc>
+  <defs>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#B99AC8" fill-opacity="0.22"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#512A46" flood-opacity="0.12"/>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="430" rx="30"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="430" fill="#F8F4FA"/>
+    <rect width="1200" height="430" fill="url(#dots)"/>
+    <circle cx="1095" cy="55" r="180" fill="#E9DDF0"/>
+    <circle cx="1122" cy="374" r="220" fill="#F0E7F4"/>
+    <circle cx="942" cy="226" r="146" fill="#FBF9FC" stroke="#D8C6E3" stroke-width="2"/>
+    <circle cx="942" cy="226" r="106" fill="#E9DDF0" stroke="#C8ADD6" stroke-width="2"/>
+    <circle cx="942" cy="226" r="70" fill="#512A46" filter="url(#shadow)"/>
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <text x="72" y="84" fill="#815799" font-size="15" font-weight="800" letter-spacing="4.5">PRODUCT  •  AI  •  SYSTEMS</text>
+      <text x="72" y="169" fill="#2A1925" font-size="58" font-weight="800" letter-spacing="-1.4">FATEMEH DAMAVANDI</text>
+      <text x="72" y="221" fill="#512A46" font-size="25" font-weight="650">Product Specialist | AI Product &amp; System Design</text>
+      <text x="72" y="268" fill="#6B5865" font-size="18">Turning product needs into clear flows, testable features,</text>
+      <text x="72" y="296" fill="#6B5865" font-size="18">and implementation-ready specifications.</text>
+
+      <g transform="translate(72 337)">
+        <rect width="144" height="42" rx="21" fill="#F0E7F4" stroke="#C8ADD6"/>
+        <circle cx="21" cy="21" r="4" fill="#815799"/>
+        <text x="37" y="27" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">DISCOVER</text>
+      </g>
+      <g transform="translate(230 337)">
+        <rect width="131" height="42" rx="21" fill="#E9DDF0" stroke="#B99AC8"/>
+        <circle cx="21" cy="21" r="4" fill="#6B3E5F"/>
+        <text x="37" y="27" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">DESIGN</text>
+      </g>
+      <g transform="translate(375 337)">
+        <rect width="154" height="42" rx="21" fill="#E2D1E9" stroke="#B99AC8"/>
+        <circle cx="21" cy="21" r="4" fill="#512A46"/>
+        <text x="37" y="27" fill="#512A46" font-size="13" font-weight="800" letter-spacing="1.2">VALIDATE</text>
+      </g>
+      <g transform="translate(543 337)">
+        <rect width="138" height="42" rx="21" fill="#512A46"/>
+        <circle cx="21" cy="21" r="4" fill="#E9DDF0"/>
+        <text x="37" y="27" fill="#FFFDFB" font-size="13" font-weight="800" letter-spacing="1.2">DELIVER</text>
+      </g>
+
+      <text x="942" y="216" text-anchor="middle" fill="#FFFDFB" font-size="14" font-weight="800" letter-spacing="2.4">MAKE IT</text>
+      <text x="942" y="241" text-anchor="middle" fill="#FFFDFB" font-size="14" font-weight="800" letter-spacing="2.4">CLEAR</text>
+      <text x="1114" y="400" text-anchor="end" fill="#815799" font-size="11" font-weight="800" letter-spacing="2.2">PRODUCT THINKING, TECHNICAL DEPTH</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="428" rx="29" stroke="#D8C6E3" stroke-width="2"/>
+</svg>
