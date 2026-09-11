@@ -4,7 +4,6 @@
 
 <div align="center">
   <a href="mailto:fdamavandi529@gmail.com"><img src="https://img.shields.io/badge/Email-Fatemeh-512A46?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Fatemeh" /></a>
-  <a href="./assets/Fatemeh_Damavandi_Resume.pdf"><img src="https://img.shields.io/badge/View-Resume-815799?style=for-the-badge&logo=readme&logoColor=white" alt="View resume" /></a>
   <a href="https://github.com/fateme529?tab=followers"><img src="https://img.shields.io/github/followers/fateme529?style=for-the-badge&logo=github&label=Follow&color=B99AC8&labelColor=512A46" alt="Follow Fatemeh on GitHub" /></a>
   <img src="https://komarev.com/ghpvc/?username=fateme529&style=for-the-badge&color=815799&label=PROFILE+VIEWS" alt="Profile views" />
 </div>
@@ -33,6 +32,16 @@ I turn early product needs into clear user flows, scoped features, acceptance cr
     </td>
   </tr>
 </table>
+
+## What I'm focused on
+
+<div align="center">
+  <img src="./assets/focus-map.svg" width="100%" alt="Product discovery, system design, AI-assisted delivery, and product QA connected by evidence and learning" />
+</div>
+
+- Designing AI-assisted product workflows and practical feature behavior.
+- Translating user and business needs into system flows and technical specifications.
+- Improving release quality through product QA, feedback, and iteration.
 
 ## Experience
 
@@ -71,17 +80,21 @@ I turn early product needs into clear user flows, scoped features, acceptance cr
 
 </div>
 
-## Ideas in motion
+## Building in public
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-bubbles-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-bubbles.svg" />
+  <img alt="Real GitHub contribution days blooming into lilac and plum bubbles before dissolving into particles" src="https://raw.githubusercontent.com/fateme529/fateme529/output/github-activity-bubbles.svg" />
+</picture>
+
+<div align="center"><sub>Each colored square is a real contribution day. Bubbles bloom across the activity path and dissolve into small particles.</sub></div>
+
+<br />
 
 <div align="center">
-  <img src="./assets/bubble-field.svg" width="100%" alt="Animated lilac and plum bubbles that grow, change color, and burst into particles around AI Product and System Design" />
-</div>
-
-## GitHub activity
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=fateme529&show_icons=true&hide_border=false&bg_color=F8F4FA&border_color=D8C6E3&title_color=512A46&icon_color=815799&text_color=6B5865&rank_icon=github" alt="Fatemeh's GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=fateme529&hide_border=false&background=F8F4FA&border=D8C6E3&stroke=B99AC8&ring=512A46&fire=815799&currStreakNum=512A46&sideNums=512A46&currStreakLabel=815799&sideLabels=815799&dates=7A6474" alt="Fatemeh's GitHub contribution streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=fateme529&show_icons=true&hide_border=true&bg_color=00000000&title_color=512A46&icon_color=815799&text_color=7A6474&rank_icon=github" alt="Fatemeh's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fateme529&layout=compact&hide_border=true&bg_color=00000000&title_color=512A46&text_color=7A6474&langs_count=6" alt="Fatemeh's most used languages" />
 </div>
 
 ---
